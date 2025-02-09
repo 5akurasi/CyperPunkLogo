@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Киберпанк Лого</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="textInput" placeholder="Введи текст...">
+        <label>Цвет текста <input type="color" id="textColor" value="#0ff"></label>
+        <label>Цвет подсветки <input type="color" id="glowColor" value="#0ff"></label>
+        <button id="generateBtn">Генерировать</button>
+        <button id="downloadBtn">Скачать</button>
+        <div id="logoContainer"></div>
+        <canvas id="canvas" width="512" height="512"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
